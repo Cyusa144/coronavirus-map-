@@ -1,0 +1,83 @@
+.App {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.App-header {
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  background-color: #c4c4c4;
+  height: max-content;
+}
+.App .country {
+  top: 0%;
+}
+.App .search {
+  z-index: 1;
+  position: fixed;
+  width: fit-content;
+}
+.App-footer {
+  background-color: #4a4848;
+  color: #e9e7e7;
+}
+.leaflet-container {
+  width: 100%;
+  min-height: 80vh;
+  z-index: 0;
+}
+.leaflet-control-container {
+  position: absolute;
+  right: 56px;
+}
+
+.bg-text {
+  background-color: #c4c4c4;
+}
+
+.select-filter {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.recovered {
+  --tw-text-opacity: 1;
+  background-color: rgba(5, 150, 105, var(--tw-text-opacity));
+  color: white;
+}
+
+.deaths,
+.todayDeaths {
+  --tw-text-opacity: 1;
+  background-color: rgba(220, 38, 38, var(--tw-text-opacity));
+  color: white;
+}
+
+.cases,
+.todayCases {
+  --tw-text-opacity: 1;
+  background-color: rgba(252, 211, 77, var(--tw-text-opacity));
+}
+
+.deaths,
+.todayDeaths {
+  --tw-text-opacity: 1;
+  background-color: rgba(220, 38, 38, var(--tw-text-opacity));
+  color: white;
+}
+
+.active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
+  color: white;
+}
+
+.critical {
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
+}
